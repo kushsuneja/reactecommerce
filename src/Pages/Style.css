@@ -1,0 +1,171 @@
+*{margin: 0.0%;}
+.topnav{
+   width: 92%;
+   background-color: green;
+   display: flex;
+   flex-flow: row;
+   flex-wrap: wrap;
+   padding: 1% 4%; padding-top: 1%;
+   justify-content: space-between;
+   margin: 0%;
+}
+.topnav ul{
+flex-flow: row;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+      
+       gap:25px;
+
+}
+.topnav ul li {
+list-style: none;
+font-size: x-large;
+
+}
+.topnav ul li a{text-decoration: none; color: black;}
+
+.header{ padding-top: 3.50%; padding-bottom: 3.50%;
+width: 100%;
+text-align: center;
+font-size: 1.50rem;
+background-color: black;
+color: white; 
+
+
+}
+.banner{ width: 100%;
+height: 150vh;
+
+color: white;
+background-color:black;
+}
+.banner h1{
+text-align: center;
+font-size: 4rem;
+
+}
+.banner h2{
+text-align: center;
+}
+.banner h3{
+   margin-left: 35%; margin-right: 10%; margin-top: -40.5%;
+  font-size: 1.45rem;
+  width: 60%;
+  
+}
+.banner h4{
+   text-align: center;
+   margin-right: 15%;
+   font-size: 1.50rem;
+}
+
+.banner ul{ 
+display: flex;
+flex-flow: row;
+}
+
+
+.banner img{margin-top: 5%;
+
+}
+.kush{
+width: 100%;
+height: 180vh;
+color: black;
+background-color:#c2c0c3;
+}
+.kush h1{
+text-align: center;
+font-size: 4rem;
+}
+.kush h2{text-align: center;}
+.kush ul{
+list-style: none;}
+.kush ul li{
+margin-left: 12%;
+font-size: 1.70rem;
+}
+
+.banner-1{
+width: 100%;
+height: 130vh;
+color: white;
+background-color:black;
+}
+.banner-1 h1{
+text-align: center;
+font-size: 4rem;
+}
+
+.banner-1 h2{
+text-align: center;
+}
+.banner-1 h3{
+margin-left: 3%;
+font-size: 1.80rem;
+}
+.banner-1 ul{list-style: none;}
+.banner-1 ul li{
+margin-left: 5%;
+font-size: 1.60rem;
+
+}
+.contact{
+width: 100%;
+height: 120vh;
+background-color: whitesmoke;
+
+}
+.contact h1{ 
+text-align: center;
+font-size: 4rem;
+}
+.contact h2{text-align: center;}
+
+
+.topdown{
+width: 100%;
+height: 7vh;
+background-color: gray;
+padding: auto;
+padding-top: 1%;
+padding-bottom: 1%;
+
+
+display: flex;
+
+
+margin: 0;
+
+}
+.topdown ul{
+display: flex;
+flex-flow: row;
+
+justify-content: space-between;
+
+
+       gap:62px;
+       
+}
+.topdown ul li{
+list-style: none;
+font-size: 1.60rem;
+
+
+
+}
+.footer{
+width: 100%;
+height: 12vh;
+background-color: black;
+
+
+}
+.footer h1{
+color: green;
+font-size:1.40rem;
+text-align: center;
+padding-top: 2%;
+}

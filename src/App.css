@@ -1,0 +1,477 @@
+/* HOME PAGE CSS START */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+}
+
+.container {
+   width: 80%;
+   margin: auto;
+   overflow: hidden;
+}
+
+header {
+   background:#333;
+   color: #fff;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+header h1 {
+   float: left;
+}
+
+nav ul {
+   float: right;
+}
+
+nav ul li {
+   display: inline;
+   margin-left: 20px;
+   font-size: large;
+  
+}
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.banner {
+   background: #f4f4f4;
+   text-align: center;
+   padding: 35px 0;
+   
+}
+.banner img {width: 100%; height: 50vh;}
+.banner h2 {
+   margin-bottom: 20px;
+}
+
+.btn {
+   display: inline-block;
+   background: #4CAF50;
+   color: #fff;
+   padding: 10px 20px;
+   text-decoration: none;
+}
+
+.products {
+   margin-top: 20px;
+}
+
+.product {
+   float: left;
+   width: calc(33.333% - 20px);
+   margin-right: 20px;
+   margin-bottom: 20px;
+   
+}
+
+.product img {
+   max-width: 100%;
+}
+
+.product h3 {
+   margin-top: 10px;
+}
+
+footer {
+   background: #333;
+   color: #fff;
+   text-align: center;
+   padding: 20px 0;
+}
+
+footer p {
+   margin: 0;
+}
+
+/* HOME PAGE CSS END */
+
+
+/* DASHBOARD PAGE CSS */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.warning {
+   display: none;
+}
+
+section {
+   display: flex;
+}
+
+.navbar {
+   width: 250px;
+   padding: 1rem;
+   position: relative;
+   height: 100vh;
+   overflow: hidden;
+   transition: all 0.3s;
+   box-shadow: 10px 10px 10px rgba(227, 215, 215, 0.434);
+}
+
+.navbar.active {
+   width: 0px;
+   padding: 0;
+}
+
+.navbar img {
+   margin-left: 10px;
+   width: 150px;
+   margin-bottom: 20px;
+}
+
+.center-nav,
+.bottom-nav {
+   list-style: none;
+}
+
+.center-nav a,
+.bottom-nav a {
+   color: #000;
+   text-decoration: none;
+   margin-left: 5px;
+}
+
+.center-nav li,
+.bottom-nav li {
+   padding: 5px 20px;
+   margin: 5px 0;
+   transition: all 0.3s;
+}
+
+.center-nav li:hover,
+.bottom-nav li:hover {
+   color: purple;
+   transform: translateX(4px);
+}
+
+.bottom-nav li a:hover , .center-nav li a:hover {    
+   color: purple;
+}
+
+hr {
+   margin-left: 20px;
+   height: 1.5px;
+   display: block;
+   margin-bottom: 5px;
+   width: 150px;
+   background-color: #2f2c2c1d;
+   outline: none;
+   border: none;
+}
+
+.bottom-nav {
+   position: absolute;
+   bottom: 30px;
+}
+
+
+/* ======= Main Content Styling ======= */
+.bars {
+   cursor: pointer;
+}
+
+.main-content {
+   padding: 10px;
+   width: 100%;
+}
+
+.main-top {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   margin: 10px 0;
+}
+
+.bar {
+   margin: 3px 0;
+   width: 20px;
+   height: 4px;
+   border-radius: 4px;
+   background-color: #000;
+}
+
+.input {
+   width: 100%;
+   text-align: center;
+}
+
+.input input {
+   width: 90%;
+   outline: none;
+   border: none;
+   border: 1px solid rgb(153, 132, 132);
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.user {
+   width: 40px;
+   position: relative;
+   transform: scaleX(-1);
+}
+
+.user img {
+   width: 100%;
+}
+
+/* ======== Styling Dashboard ======== */
+.dashboard {
+   padding: 10px;
+}
+
+.heading {
+   margin: 10px 0;
+}
+
+.color-box {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.box {
+   display: flex;
+   height: 120px;
+   flex-direction: column;
+   width: 180px;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   margin: 10px 5px;
+}
+
+.box i {
+   font-size: 1.3rem;
+   margin-bottom: 5px;
+   color: #000000;
+}
+
+
+
+
+.box p {
+   line-height: 30px;
+}
+
+.skyblue {
+   background-color: rgb(135, 220, 253);
+}
+
+.yellow {
+   background-color: rgb(231, 251, 151);
+}
+
+.purple {
+   background-color: rgb(243, 178, 255);
+}
+
+.red {
+   background-color: rgb(255, 178, 178);
+}
+
+/* ======== Styling Recent Activity ======== */
+.activity {
+   padding: 10px;
+   margin: 10px 0;
+}
+
+.activity table {
+   width: 100%;
+}
+
+tr {
+   row-gap: 0px;
+}
+
+th {
+   line-height: 40px;
+   text-align: left;
+}
+
+td {
+   line-height: 28px;
+}
+
+td,
+th {
+   margin: 0;
+}
+
+@media screen and (max-width:630px) {
+   section {
+       display: none;
+   }
+   /* DASHBOARD PAGE CSS END */
+
+   /* CONTACT PAGE CSS */
+   .warning {
+       padding: 5rem;
+       text-align: center;
+       line-height: 35px;
+       background-color: rgb(185, 72, 72);
+       display: flex;
+       color: #e1cdcd;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100vh;
+   }
+}
+
+.contact h1{ 
+   text-align: center;
+   font-size: 4rem; 
+   
+}
+.contact h2{text-align: center;}
+
+/* CONTACT PAGE CSS END */
+
+/* TOPDOWN FOOT. CSS */
+.topdown{
+   width: 100%;
+   height: 10vh;
+   background-color: #333;
+   padding: auto;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   color: whitesmoke;
+   
+   
+   display: flex;
+  
+ 
+margin: 0;
+
+}
+.topdown ul{
+   display: flex;
+   flex-flow: row;
+  
+   justify-content: space-around;
+ 
+
+           gap:80px;
+           
+}
+.topdown ul li{
+   list-style: none;
+   font-size: 1.30rem;
+   
+}
+/* TOPDOWN FOOT. CSS  END*/
+
+
+
+
+/* SHOP PAGE CSS */
+.product {
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   padding: 10px;
+   overflow: hidden;
+}
+.product img {
+   max-width: 100px;
+   float: left;
+   margin-right: 10px;
+}
+.product .name {
+   font-weight: bold;
+}
+.product .price {
+   color: green;
+}
+.add-to-cart {
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 4px;
+}
+/* SHOP PAGE CSS  END*/
+
+
+
+
+/* ABOUT PAGE CSS START */
+.about-us{
+   height: 100vh;
+   width: 100%;
+   padding: 90px 0;
+   background: #ddd;
+ }
+ .pic{
+   height: auto;
+   width:  302px;
+ }
+ .about{
+   width: 1130px;
+   max-width: 85%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .text{
+   width: 540px;
+ }
+ .text h2{
+   font-size: 90px;
+   font-weight: 600;
+   margin-bottom: 10px;
+ 
+ }
+ .text h5{
+   font-size: 22px;
+   font-weight: 500;
+   margin-bottom: 20px;
+ }
+ span{
+   color: #4070f4;
+ }
+ .text p{
+   font-size: 18px;
+   line-height: 25px;
+   letter-spacing: 1px;
+ }
+ .data{
+   margin-top: 30px;
+ }
+ .hire{
+   font-size: 18px;
+   background: #4070f4;
+   color: #fff;
+   text-decoration: none;
+   border: none;
+   padding: 8px 25px;
+   border-radius: 6px;
+   transition: 0.5s;
+ }
+ .hire:hover{
+   background: #000;
+   border: 1px solid #4070f4;
+ }
+ /* ABOUT PAGE CSS END */
