@@ -179,7 +179,7 @@ const Service =() =>{
   <div className="product">
     <img src="./images/download (2).jpeg" alt="Product 2" />
     <div className="info">
-      <div className="name">Product 2</div>
+      <div className="name">Products 2</div>
       <div className="price">$15</div>
       <button className="add-to-cart">Add to Cart</button>
     </div>
